@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 17px 10%;
+    background-color: #b67008;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+li, a, button {
+    font-family: "Montserral", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+button{
+    margin-left: 28px;
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgb(0, 136, 169, 0.8);
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+boby{
+    left: 0px;
+    top: 0px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #b67008;
+    color: #edf0f1;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-size: 14px;
+}
+.max{
+    padding-left: 400px;
+    padding-top: 300px;
+}
+#amath{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(223, 111, 6);
+}
+.do{
+    padding-left: 55.0px;
+}
